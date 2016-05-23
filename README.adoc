@@ -3,3 +3,7 @@
 ADL - AsciiDoc Link.
 
 Chrome extension. Copy the current page link as AsciiDoc.
+
+== Acknowledgments
+
+Thank http://tangoooo.lofter.com/[唐---棠] for me to make icons.
