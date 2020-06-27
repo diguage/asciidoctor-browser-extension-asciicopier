@@ -4,6 +4,32 @@ ADL - AsciiDoc Link.
 
 Chrome extension. Copy the current page link as AsciiDoc.
 
+== TODO
+
+. Save the copied url
+. Copy page content As AsciiDoc
+. Copy Image as link
+. All tabs links
+
+
+
+== 图标创意灵感
+
+外面使用正十七边形包裹，中间使用两个 AsciiDoctor 图标重叠，暗示复制的意思。
+
+正十七边形是为了纪念高斯。历史上，最伟大的数学家。
+
+AsciiDoctor 的图标使用色号 #e40145，这也是 AsciiDoctor 图标的底色。
+
+?? 边框图标使用什么颜色？
+
 == Acknowledgments
 
 Thank http://tangoooo.lofter.com/[唐---棠] for me to make icons.
+
+== 参考资料
+
+. https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions[Browser Extensions - Mozilla | MDN^]
+. https://github.com/mozilla/webextension-polyfill[mozilla/webextension-polyfill: A lightweight polyfill library for Promise-based WebExtension APIs in Chrome^]
+. https://github.com/chitsaou/copy-as-markdown[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.^]
+
