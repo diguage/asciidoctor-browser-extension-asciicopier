@@ -1,42 +1,8 @@
 {
+  "manifest_version": 2,
+  "version": "1.0.0",
   "name": "Asciidoctor Chrome Extension Asciicopier",
   "description": "Asciidoctor, Chrome Extension, TypeScript",
-  "version": "1.0.0",
-  "manifest_version": 2,
-  "minimum_chrome_version": "42.0",
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  },
-  "browser_action": {
-    "default_icon": "img/icon_48.png",
-    "default_title": "Asciicopier - Copy as AsciiDoc",
-    "default_popup": "popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "js/vendor.js",
-        "js/content_script.js"
-      ]
-    }
-  ],
-  "background": {
-    "scripts": [
-      "js/vendor.js",
-      "js/background.js"
-    ]
-  },
-  "permissions": [
-    "tabs",
-    "*://*/*",
-    "contextMenus",
-    "activeTab",
-    "storage"
-  ],
   "icons": {
     "16": "img/icon_16.png",
     "32": "img/icon_32.png",
@@ -54,6 +20,34 @@
     "180": "img/icon_180.png",
     "192": "img/icon_192.png"
   },
+  "browser_action": {
+    "default_icon": "img/icon_48.png",
+    "default_title": "Asciicopier - Copy as AsciiDoc",
+    "default_popup": "popup.html"
+  },
   "author": "D瓜哥（diguage）",
-  "homepage_url": "https://www.diguage.com/"
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/vendor.js",
+        "js/content_script.js"
+      ]
+    }
+  ],
+  "homepage_url": "https://www.diguage.com/",
+  "minimum_chrome_version": "42.0",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "tabs",
+    "*://*/*",
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ]
 }

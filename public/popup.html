@@ -1,28 +1,53 @@
-<!doctype html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Getting Started Extension's Popup</title>
   <style>
     body {
-      font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-      font-size: 100%;
+      font-family: 'Roboto', arial, sans-serif;
+      font-size: 16px;
+      color: #1a0dab;
+      padding: 0 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 175px;
+      line-height: 120%;
+      /*border: #f5e4e4 solid 1px;*/
+    }
+
+    ul li {
+      margin: 0 0;
+      padding: 4px 2px 4px 8px;
+    }
+
+    ul li:hover {
+      color: white;
+      background-color: #170309;
+      background-color: #4336f4;
+      background-color: #352bc3;
+      background-color: #0080ff;
     }
   </style>
+  <title>Popup Menu</title>
   <script src="js/vendor.js"></script>
 </head>
 <body>
-<ul style="min-width: 700px;">
-  <li>Current URL: <span id="url"></span></li>
-  <li>Current Time: <span id="time"></span></li>
+<ul>
+  <li id="currentTabLink">Current tab link</li>
+  <hr/>
+  <li id="allTabLinks">All tab links(99)</li>
+  <li id="allTabTitles">All tab titles</li>
+  <li id="allTabUrls">All tab URLs</li>
+  <hr/>
+  <li id="selectedTabLinks">Selected tab links(99)</li>
+  <li id="selectedTabTitles">Selected tab titles</li>
+  <li id="selectedTabUrls">Selected tab URLs</li>
 </ul>
-<button id="countUp">count up</button>
-<button id="changeBackground">change background</button>
 <script src="js/popup.js"></script>
 </body>
-</html>
 
