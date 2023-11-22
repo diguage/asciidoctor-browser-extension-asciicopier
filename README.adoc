@@ -32,4 +32,7 @@ Thank http://tangoooo.lofter.com/[唐---棠] for me to make icons.
 . https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions[Browser Extensions - Mozilla | MDN^]
 . https://github.com/mozilla/webextension-polyfill[mozilla/webextension-polyfill: A lightweight polyfill library for Promise-based WebExtension APIs in Chrome^]
 . https://github.com/chitsaou/copy-as-markdown[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.^]
-
+. https://github.com/asciidoctor/brand/issues/2[Select colors for AsciiDoctor logo · Issue #2^]
+. https://www.color-hex.com/color/e40046[#e40046 Color Hex^]
+. https://www.color-hex.com/color/191919[#191919 Color Hex^]
+. https://zh.wikipedia.org/zh-hans/Wikipedia:%E6%AD%A3%E5%8D%81%E4%B8%83%E9%82%8A%E5%BD%A2[维基百科:正十七边形 - 维基百科，自由的百科全书^]

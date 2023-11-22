@@ -1,0 +1,9 @@
+= Change Log
+
+== v0.1.5
+
+. Change logo
+
+== v0.1.4
+
+. Delete unused permissions
